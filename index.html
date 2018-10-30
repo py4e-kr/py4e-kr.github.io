@@ -4,10 +4,7 @@
 
   <script>
   var host = "www.py4e.kr";
-  if ((host == window.location.host) && (window.location.protocol == "https"))
-    window.location.protocol = "http";
-  
-  if ((host == window.location.host) && (window.location.protocol == "http"))
+  if (host == window.location.host)
     window.href.location = "https://py4e.kr";
   </script>
   
